@@ -10,4 +10,4 @@ Curso de Instalación y administración de Odoo 11 en español
 ## Puede seguir el curso en vivo por Youtube 
 [Youtube CHANNEL](https://www.youtube.com/user/martinjavierllanos)
 
-![Slack Channel](https://assets.brandfolder.com/ubhnmsn4/original/Slack_Mark_Web.png)
+![Slack Channel](https://cdn.brandfolder.io/5H442O3W/as/vwqoqir7/Slack%20Mark%20%E2%80%94%20Web.png?width=128)
