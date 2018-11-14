@@ -13,7 +13,7 @@ Curso de Instalación y administración de Odoo 11 en español
 ### SLACK CHANNEL [![Slack](https://cdn.brandfolder.io/5H442O3W/as/6c5cx0st/Slack%20RGB.png?height=32)](https://taller-de-odoo.slack.com)
 
 
-# Awesome README [![Slack](https://cdn.brandfolder.io/5H442O3W/as/6c5cx0st/Slack%20RGB.png?height=32)](https://github.com/sindresorhus/awesome)
+# Awesome README [![Slack](https://cdn.brandfolder.io/5H442O3W/as/6c5cx0st/Slack%20RGB.png?height=32)](https://taller-de-odoo.slack.com)
 
 
 
