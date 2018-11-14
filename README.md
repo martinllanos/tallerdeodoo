@@ -11,3 +11,12 @@ Curso de Instalación y administración de Odoo 11 en español
 [Youtube CHANNEL](https://www.youtube.com/user/martinjavierllanos)
 
 ![Slack Channel](https://cdn.brandfolder.io/5H442O3W/as/vwqoqir7/Slack%20Mark%20%E2%80%94%20Web.png?width=128)
+
+Here's an image:
+
+![][image_ref_a32ff4ads]
+
+More text here...
+...
+
+[image_ref_a32ff4ads]: data:image/png;base64,iVBORw0KGgoAAAANSUhEke02C1MyA29UWKgPA...RS12D==
