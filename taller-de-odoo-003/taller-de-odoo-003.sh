@@ -7,14 +7,14 @@ echo =============================================
 echo =============================================
 echo Instalando dependencias
 echo =============================================
-sudo apt-get install libreoffice-script-provider-python python3-genshi python3-cairo python3-lxml
+sudo apt-get install libreoffice-script-provider-python libreoffice-java-common openjdk-8-jre python3-genshi python3-cairo python3-lxml python3-cups 
 
 echo =============================================
 echo Instalando LibreOffice Standalone
 echo =============================================
 cd /etc/init.d
-wget -L https://github.com/martinllanos/tallerdeodoo/raw/master/taller-de-odoo-003/office.sh
-chmod +x /etc/init.d/office.sh
+sudo wget -L https://github.com/martinllanos/tallerdeodoo/raw/master/taller-de-odoo-003/office.sh
+sudo chmod +x /etc/init.d/office.sh
 sudo update-rc.d office.sh defaults
 
 echo =============================================
@@ -31,17 +31,19 @@ echo =============================================
 echo Instalando Aeroo Docs
 echo =============================================
 cd /home/odoo/odoo/aeroo/
-git clone https://github.com/aeroo/aeroo_docs.git
+sudo git clone https://github.com/aeroo/aeroo_docs.git
 
 echo =============================================
 echo Creando el archivo de configuración de Aeroo_Docs
 echo =============================================
 sudo python3 /home/odoo/odoo/aeroo/aeroo_docs/aeroo-docs start -c /etc/aeroo-docs.conf
+# No config file found /etc/aeroo-docs.conf. Do you want to create one? [Yes|No]: Yes
 
 echo =============================================
 echo Configurando el servicio aeroo-docs
 echo =============================================
 sudo ln -s /home/odoo/odoo/aeroo/aeroo_docs/aeroo-docs /etc/init.d/aeroo-docs
+cd /etc/init.d/
 sudo update-rc.d aeroo-docs defaults
 
 echo =============================================
