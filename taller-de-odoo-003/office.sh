@@ -21,9 +21,7 @@ case "$1" in
       exit
     fi
       echo "Starting LibreOffice headless server"
-      #$SOFFICE_PATH --headless --nologo --nofirststartwizard --    accept="socket,host=127.0.0.1,port=2002;urp" & > /dev/null 2>&1
-      $SOFFICE_PATH --nologo --nofirststartwizard --headless --norestore --invisible --pidfile=$PIDFILE "--accept=socket,host=localhost,port=8100,tcpNoDelay=1;urp;" & > /de
-v/null 2>&1
+      $SOFFICE_PATH --nologo --nofirststartwizard --headless --norestore --invisible --pidfile=$PIDFILE "--accept=socket,host=localhost,port=8100,tcpNoDelay=1;urp;" & > /dev/null 2>&1
     ;;
     stop)
     if [ -f $PIDFILE ]; then
