@@ -14,7 +14,7 @@ sudo apt-get upgrade
 echo =============================================
 echo Instalando VirtualEnv
 echo =============================================
-sudo apt-get install python3.6-dev python3.6-venv python3-pip python3-libxml2 libxml2-dev libxslt1-dev libldap2-dev libsasl2-dev libssl-dev swig wkhtmltopdf nodejs node-clean-css node-less 
+sudo apt-get install python3.6-dev python3.6-venv python3-pip python3-libxml2 libxml2-dev libxslt1-dev libcups2-dev libmysqlclient-dev libldap2-dev libsasl2-dev libssl-dev swig wkhtmltopdf nodejs node-clean-css node-less 
 
 echo =============================================
 echo Instalando PostgreSQL
